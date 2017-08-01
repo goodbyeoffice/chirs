@@ -25,6 +25,13 @@
 <meta name="msapplication-config" content="<?php echo get_template_directory_uri(); ?>/favicons/browserconfig.xml">
 <meta name="theme-color" content="#fa9a46">
 
+<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/img/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:description" content="Art Director / Designer">
+<meta property="og:title" content="Chris Raimond">
+<meta property="og:url" content="http://chrisraimond.com/">
+
 <meta name="robots" content="index, follow">
 <meta name="GOOGLEBOT" content="index, follow" />
 
