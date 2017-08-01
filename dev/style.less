@@ -553,6 +553,22 @@ h1 {
 		animation: homepage-link-animation-part1 1s, homepage-link-animation-part2 0.5s;
 		animation-delay: 0s, 1s;
 		animation-timing-function: @easeInOutQuint;
+		
+		/* Staggered link animation code
+		.link-animation(20);
+		
+		.link-animation(@n, @i: 1) when (@i =< @n) {
+		  &.link-@{i} {
+		  	@timing: @i/4;
+		  	animation: homepage-link-animation-part1 ~"@{timing}s", homepage-link-animation-part2 0.5s;
+		  	animation-delay: 0s, ~"@{timing}s";
+		  	animation-timing-function: @easeInOutQuint;
+		  }
+		  
+		  .link-animation(@n, (@i + 1));
+		}
+		*/
+		
 	}
 	
 	.homepage-link-background {
