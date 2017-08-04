@@ -175,7 +175,7 @@
 	
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
-			<h4 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h4>
+			<h4 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">Designed by <?php bloginfo( 'name' ); ?></a></h4>
 			
 			<h4 class="back"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">Back to all projects</a></h4>
 		</div><!-- .site-info -->
