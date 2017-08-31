@@ -35,8 +35,7 @@
 <meta name="robots" content="index, follow">
 <meta name="GOOGLEBOT" content="index, follow" />
 
-<script src="https://use.typekit.net/irq6uhd.js"></script>
-<script>try{Typekit.load({ async: true });}catch(e){}</script>
+<link rel="stylesheet" href="https://use.typekit.net/qoy0zcy.css">
 
 <?php wp_head(); ?>
 

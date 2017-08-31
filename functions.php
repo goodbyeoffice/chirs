@@ -620,8 +620,7 @@ add_filter( 'video_embed_html', 'alx_embed_html' ); // Jetpack
  *   Add responsive container to embeds
  */
 function my_login_logo() { ?>
-	<script src="https://use.typekit.net/irq6uhd.js"></script>
-	<script>try{Typekit.load({ async: true });}catch(e){}</script>
+	<link rel="stylesheet" href="https://use.typekit.net/qoy0zcy.css">
 	<style type="text/css">
 		#login h1 a, .login h1 a {
 			font-family: "aktiv-grotesk", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
